@@ -1,0 +1,1409 @@
+{
+  "intents": [
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "You read my mind"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "What do you mean by that?"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "You around?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You're misunderstanding me"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Wait"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "We will need to begin again"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "You got me"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "eligibility",
+      "examples": [
+        {
+          "text": "admission eligibility"
+        },
+        {
+          "text": "eligibility criteria"
+        },
+        {
+          "text": "eligibility for sc,st,obc"
+        },
+        {
+          "text": "eligibilty for general"
+        },
+        {
+          "text": "Enterance exam required to take admission in svvv"
+        },
+        {
+          "text": "how much score of 12th required"
+        },
+        {
+          "text": "how will i know i am eligible"
+        },
+        {
+          "text": "what is eligibility"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "field",
+      "examples": [
+        {
+          "text": "admission"
+        },
+        {
+          "text": "A@gmail.com"
+        },
+        {
+          "text": "enroll"
+        },
+        {
+          "text": "i want to enroll"
+        },
+        {
+          "text": "i want to enroll in computer science without specialization"
+        },
+        {
+          "text": "i want to enroll in information technology"
+        },
+        {
+          "text": "i want to get into cs"
+        },
+        {
+          "text": "i want to take addmission"
+        },
+        {
+          "text": "i want to take admission in cs"
+        },
+        {
+          "text": "i want to take admission in it"
+        },
+        {
+          "text": "i wish to enroll"
+        },
+        {
+          "text": "i would to like to enroll"
+        },
+        {
+          "text": "my dream is to get into it"
+        },
+        {
+          "text": "options"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "list",
+      "examples": [
+        {
+          "text": "all fields in svvv"
+        },
+        {
+          "text": "b.tech fields"
+        },
+        {
+          "text": "can u list fields"
+        },
+        {
+          "text": "i want enroll"
+        },
+        {
+          "text": "list the fields in b.tech"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "bda",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bda",
+          "synonyms": [
+            "big data"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cmci",
+          "synonyms": [
+            "cloud and mobile computing"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "checkMobile",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "(\\d{10})",
+          "patterns": [
+            "0-(\\d{10})",
+            "91-(\\d{10})",
+            "0(\\d{10})",
+            "(\\d{10})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "emails",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "@",
+          "synonyms": [
+            "@.*.edu.in",
+            "@gmail.com",
+            "@hotmail.com",
+            "@mail.com",
+            "@outlook.com",
+            "@rediff.com",
+            "@svvv.edu.in"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "field_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bda",
+          "synonyms": [
+            "big data",
+            "big data analytics",
+            "computer science with big data ",
+            "cs-bda",
+            "cs-bda-ibm",
+            "hadoop technologies"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cmci",
+          "synonyms": [
+            "cloud and mobile computing",
+            "cloud computing",
+            "computer science with cloud computing",
+            "cs-cmci",
+            "cs-cmci-ibm",
+            "cs-omputer science with cloud and mobile computing with ibm",
+            "mobile computing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cs",
+          "synonyms": [
+            "computer science ",
+            "cse",
+            "cs with no ibm",
+            "cs with no specialization",
+            "simple cs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ibmai",
+          "synonyms": [
+            "ai",
+            "artificial intelligence",
+            "neural network"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "it",
+          "synonyms": [
+            "information technology"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "filters",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cs",
+          "synonyms": [
+            "computer Science ",
+            "Computer Science (Artificial Intelligence – IBM)",
+            "Computer Science (Big Data Analytics- IBM)",
+            "Computer Science (Cloud and Mobile Computing – IBM)",
+            "cse",
+            "CSE (Artificial Intelligence – IBM)",
+            "CSE (Big Data Analytics- IBM)",
+            "CSE (Cloud and Mobile Computing – IBM)",
+            "cse-ibm",
+            "it"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greeting_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "good morning",
+          "synonyms": [
+            "good afternoon",
+            "good evening"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hi",
+          "synonyms": [
+            "hello",
+            "hey"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "IBMai",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ibmai",
+          "synonyms": [
+            "ai",
+            "artificial intelligence"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1628869699715"
+    },
+    {
+      "type": "standard",
+      "title": "eligibility",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For admission in any of these above fields  ....\n\nEligibilty Criteria is :-\n\n1. A candidate seeking admission in above programs should have appeared in JEE or equivalent qualifying examination\n\n2. He shall have passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry / Biotechnology / Biology /Technical Vocational subject with at least 45% marks (For General category) and 40% marks in the case of SC/ST/OBC (excluding creamy layer) category of Madhya Pradesh in the aggregate of any recognized board.\n\n3. The applicants who have not appeared in JEE or any entrance test needed to appear in SVET for admission against vacancies. Eligibility and qualification criteria will remain same as applicable for the candidates who have appeared in JEE or any other equivalent entrance test.\n\n4. Candidates in the qualifying examinations can also apply on a provisional basis. But at the time of counselling, such candidates shall have to produce the original certificate of having passed/mark sheet (Showing aggregate marks) of the degree program full filling the eligibility criteria of the particular program.\n\nCandidates, whose mark sheet is based on a grading system, need to change grade in marks system as formula given in their original mark sheet."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1628879255924"
+      },
+      "conditions": "#eligibility",
+      "dialog_node": "node_1_1628874282020",
+      "previous_sibling": "node_8_1628877419868"
+    },
+    {
+      "type": "standard",
+      "title": "check all",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your details submitted Successfully. Hope you got to know all the details you are looking for. "
+              },
+              {
+                "text": "Expect u to visit SVVV campus."
+              },
+              {
+                "text": "Wishing u a better future ahead."
+              },
+              {
+                "text": "GoodBye"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1628879255924"
+      },
+      "conditions": "@checkMobile",
+      "dialog_node": "node_2_1628878647404",
+      "previous_sibling": "node_3_1628877955676"
+    },
+    {
+      "type": "standard",
+      "title": "mobile number",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter mobile number"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@emails",
+      "dialog_node": "node_3_1628877955676",
+      "previous_sibling": "node_9_1628879506205"
+    },
+    {
+      "type": "standard",
+      "title": "field",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1628877419868"
+      },
+      "conditions": "#field",
+      "dialog_node": "node_6_1628869699715",
+      "previous_sibling": "node_1_1628874282020"
+    },
+    {
+      "type": "standard",
+      "title": "options",
+      "output": {
+        "generic": [
+          {
+            "title": "B.tech Fields are :-",
+            "options": [
+              {
+                "label": "Eligibility Criteria",
+                "value": {
+                  "input": {
+                    "text": "eligibility"
+                  }
+                }
+              },
+              {
+                "label": "Information Technology",
+                "value": {
+                  "input": {
+                    "text": "Information Technology"
+                  }
+                }
+              },
+              {
+                "label": "Computer Science and Engineering",
+                "value": {
+                  "input": {
+                    "text": "Computer Science and Engineering"
+                  }
+                }
+              },
+              {
+                "label": "CSE (Computer Science (Cloud and Mobile Computing – IBM)",
+                "value": {
+                  "input": {
+                    "text": "enroll in cmci"
+                  }
+                }
+              },
+              {
+                "label": "Computer Science(Big Data Analytics-IBM)",
+                "value": {
+                  "input": {
+                    "text": "enroll in bda"
+                  }
+                }
+              },
+              {
+                "label": "Computer Science ( Artificial Intelligence – IBM)",
+                "value": {
+                  "input": {
+                    "text": "enroll in artificial intelligence"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#list",
+      "dialog_node": "node_6_1628879255924",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "email",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter your email address"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@emails",
+      "dialog_node": "node_8_1628877419868",
+      "previous_sibling": "node_2_1628878647404"
+    },
+    {
+      "type": "standard",
+      "title": "greetings",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1628879255924"
+      },
+      "conditions": "#greetings",
+      "dialog_node": "node_9_1628879506205",
+      "previous_sibling": "node_6_1628879255924"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Information Technology "
+              },
+              {
+                "text": "For fee structure details visit the below link "
+              },
+              {
+                "text": "https://svvv.edu.in/uploaded_files/Fee_Structure_for_2021-22_Amended_on_24_7_21).pdf"
+              },
+              {
+                "text": "Information technology field broucher link"
+              },
+              {
+                "text": "https://www.svvv.edu.in/uploaded_files/SVVV_Infrmation_Brochure-18_August.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1628869699715",
+      "conditions": "@field_type:it",
+      "dialog_node": "response_10_1628873932128",
+      "previous_sibling": "response_6_1628869884327"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey ,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1628879506205",
+      "conditions": "@greeting_type:hi",
+      "dialog_node": "response_10_1628880245147",
+      "previous_sibling": "response_4_1628880164920"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Computer Science(Artificial Intelligence-IBM)"
+              },
+              {
+                "text": "Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision."
+              },
+              {
+                "text": "SVVV Artificial Inteligence broucher link for more details"
+              },
+              {
+                "text": "https://www.svvv.edu.in/uploaded_files/02_AI_Info.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1628869699715",
+      "conditions": "@field_type:ibmai",
+      "dialog_node": "response_10_1628928093325",
+      "previous_sibling": "response_2_1628886845216"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good morning "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1628879506205",
+      "conditions": "@sys-time < 12 && @sys-time > 00",
+      "dialog_node": "response_2_1628879849412"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Computer Science(Big data -IBM)"
+              },
+              {
+                "text": "Big data analytics is a form of advanced analytics, which involve complex applications with elements such as predictive models, statistical algorithms and what-if analysis powered by analytics systems."
+              },
+              {
+                "text": "On a broad scale, data analytics technologies and techniques give organizations a way to analyze data sets and gather new information."
+              },
+              {
+                "text": "Big data analytics broucher link"
+              },
+              {
+                "text": "https://www.svvv.edu.in/uploaded_files/IBM_programs_information.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1628869699715",
+      "conditions": "@field_type:bda",
+      "dialog_node": "response_2_1628886845216",
+      "previous_sibling": "response_8_1628884942956"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good evening ,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1628879506205",
+      "conditions": "@sys-time > 18",
+      "dialog_node": "response_4_1628880042593",
+      "previous_sibling": "response_2_1628879849412"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good afternoon ,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1628879506205",
+      "conditions": "@sys-time > 12 && @sys-time < 18",
+      "dialog_node": "response_4_1628880164920",
+      "previous_sibling": "response_4_1628880042593"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Computer science selected "
+              },
+              {
+                "text": "Total fees is 90,000"
+              },
+              {
+                "text": "For more details visit the below link "
+              },
+              {
+                "text": "https://collegedunia.com/university/58562-shri-vaishnav-vidyapeeth-vishwavidyalaya-svvv-indore/courses-fees?slug=bachelor-of-technology-btech&course_type=Full-Time"
+              },
+              {
+                "text": "And"
+              },
+              {
+                "text": "https://svvv.edu.in/uploaded_files/Fee_Structure_for_2021-22_Amended_on_24_7_21).pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1628869699715",
+      "conditions": "@field_type:cs",
+      "dialog_node": "response_6_1628869884327"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey, can ask procedure for taking admission  in B.tech field"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "disabled": true,
+      "dialog_node": "response_8_1628865850427"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter your email address"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1628877419868",
+      "disabled": true,
+      "dialog_node": "response_8_1628884468277"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Computer science (Cloud and mobile computing)"
+              },
+              {
+                "text": "\nMobile cloud computing uses cloud computing to deliver applications to mobile devices. These mobile apps can be deployed remotely using speed and flexibility and development tools.\n"
+              },
+              {
+                "text": "For more details can visit website\n\nhttps://svvv.edu.in/uploaded_files/Fee_Structure_for_2021-22_Amended_on_24_7_21).pdf"
+              },
+              {
+                "text": "SVVV Cloud and mobile computing broucher"
+              },
+              {
+                "text": "https://svvv.edu.in/uploaded_files/IBM_programs_information.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1628869699715",
+      "conditions": "@field_type:cmci",
+      "dialog_node": "response_8_1628884942956",
+      "previous_sibling": "response_10_1628873932128"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey Good morning"
+              },
+              {
+                "text": "Welcome to SVVV"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "This is svvv Bot regarding B.tech fields"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1628879255924"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome",
+      "disambiguation_opt_out": true
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "CollegeSkill",
+  "language": "en",
+  "description": ""
+}
